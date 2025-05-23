@@ -22,7 +22,7 @@ Originally developed as a real-world project, it is **currently live at:**
 
 ### 🛒 Modular E-Commerce Backend
 - **Recursive product categories** using MPTT
-- **Apps** Product, cart, order, notifications, tags, and user models implemented with future extensibility in mind
+- **Extensible Core Apps:** Built modular from day one — including Products, Carts, Orders, Notifications, Tags, and Accounts
 
 ### 🧠 Project Structure & Design Philosophy
 - **Modular code structure**: Models, forms, and admin classes are split into separate modules — even for simpler apps
@@ -75,3 +75,5 @@ The codebase is in a private repository.
 - Result: **clearer models**, **cleaner queries**, better admin integration, and more maintainable code
 - Learned deep integrations of Django with real deployment scenarios
 - Future plans: Add payment gateway, refine order flow, improve admin UX
+
+### 🔙 [Back to Project Index](../README.md)
