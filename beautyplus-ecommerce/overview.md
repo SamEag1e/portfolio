@@ -1,4 +1,4 @@
-# 🚀 Project Name ( BeautyPlus - E-commerce Platform)
+# 🚀 BeautyPlus – Skincare E-Commerce Platform
 
 > **Status:** ✅ Live | 🧪 In Development | 🔒 Private Codebase  
 > **Tech Stack:** Django • PostgreSQL • Docker • Nginx • Cloudflare SSL • HTML • CSS • JavaScript • jQuery
