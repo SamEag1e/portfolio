@@ -7,7 +7,7 @@
 
 ## 🧾 Overview
 
-**OHLCraft** is a work-in-progress Python project aimed at becoming a **minimal, beginner-friendly framework for building trading bots** — inspired by lessons learned while building [CustomTradeBot](../portfolio/custom-trade-bot/overview.md).
+**OHLCraft** is a work-in-progress Python project aimed at becoming a **minimal, beginner-friendly framework for building trading bots** — inspired by lessons learned while building [CustomTradeBot](../custom-trade-bot/overview.md).
 
 While still in its early stages, the goal is to simplify the architecture of algo bots by focusing on:
 - **Separation of concerns**
