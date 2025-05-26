@@ -9,8 +9,9 @@
 
 - [`beautyplus-ecommerce`](./beautyplus-ecommerce/overview.md) – Live e-commerce platform built with Django  🌐 [irbeautyplus.com](https://irbeautyplus.com)
 - [`custom-trade-bot`](./custom-trade-bot/overview.md) – A fully automated trading bot for the Forex market
-- [`ohlcraft`](./ohlcraft/overview.md) – A beginner-friendly Python bot framework in progress, built from real-world trading lessons [source](https://github.com/SamEag1e/OHLCraft)
+- [`raceroms-platform`](./raceroms/overview.md) – Niche platform for ECU tuning file services  🌐 [raceroms.com](https://raceroms.com)
 - [`roof-estimator`](./roof-estimator/overview.md) – Archived learning project estimating real estate prices using Divar data [sources](./roof-estimator/overview.md#-access-or-demo)
+- [`ohlcraft`](./ohlcraft/overview.md) – A beginner-friendly Python bot framework in progress, built from real-world trading lessons [source](https://github.com/SamEag1e/OHLCraft)
 
 ---
 
