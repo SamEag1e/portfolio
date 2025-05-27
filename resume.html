@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samad Eagle | Backend Developer Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lora', 'Segoe UI', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3,
+        h5,
+        h6 {
+            font-family: 'Lora', serif;
+        }
+
+        .resume {
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            background: white;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .sidebar {
+            background: #0056b3;
+            color: white;
+            width: 30%;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .clean-list-sidebar {
+            padding: 4px;
+            list-style: none;
+        }
+
+        .clean-list-sidebar li {
+            padding: 4px 0;
+        }
+
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        .sidebar h4 {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 4px;
+            margin-bottom: 4px;
+
+        }
+
+        .sidebar .skills,
+        .sidebar .contact {
+            text-align: left;
+            margin-top: 1rem;
+        }
+
+
+        .main {
+            width: 70%;
+            padding: 2rem;
+        }
+
+        .main h1,
+        .main h3 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0;
+            margin-top: 1rem;
+        }
+
+        .clean-list-main {
+            padding: 8px;
+            margin: 8px;
+        }
+
+        .clean-list-main li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .clean-list-main .project-desc {
+            color: #444;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px solid #fff;
+        }
+
+        .main a {
+            font-weight: bold;
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @media print {
+
+            html,
+            body {
+                width: 210mm;
+                height: 297mm;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .resume {
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+
+            .main h3,
+            .clean-list-main li {
+                page-break-after: avoid;
+                page-break-inside: avoid;
+            }
+
+
+            .sidebar {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background-color: #0056b3 !important;
+            }
+
+            body::before,
+            body::after {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume">
+        <div class="sidebar">
+            <img src="https://avatars.githubusercontent.com/u/64428943?v=4" alt="Profile Picture">
+            <h2>Samad Taghinejad</h2>
+            <p>Backend Developer <br> Python & Django</p>
+
+            <div class="skills">
+                <h4>Tech Stack</h4>
+                <ul class="clean-list-sidebar">
+                    <li>Python, Django, DRF</li>
+                    <li>PostgreSQL, MySQL</li>
+                    <li>HTML, CSS, Bootstrap, JavaScript</li>
+                    <li>Git, GitHub Workflow</li>
+                    <li>Docker, Nginx, Certbot</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h4>Contact</h4>
+                <ul class="clean-list-sidebar">
+                    <li>Email: <a href="mailto:samadtnd@gmail.com" rel="noopener noreferrer"
+                            target="_blank">samadtnd@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/samad-taghi-nezhad-8a8a50300"
+                            rel="noopener noreferrer" target="_blank">Samad Taghinejad</a></li>
+                    <li>GitHub: <a href="https://github.com/SamEag1e" rel="noopener noreferrer"
+                            target="_blank">SamEag1e</a></li>
+                    <li>Telegram: <a href="https://t.me/SamadTnd" rel="noopener noreferrer"
+                            target="_blank">@SamadTnd</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <h1>Profile</h1>
+            <p>
+                Backend developer specializing in Python, Django and DRF. Focused on building scalable, maintainable
+                systems with clean code, clean APIs, and reliable deployments.
+            </p>
+
+            <h3>Projects</h3>
+            <ul class="clean-list-main">
+                <li>
+                    <strong>BeautyPlus E-commerce</strong> –
+                    <a href="https://irbeautyplus.com" target="_blank" rel="noopener noreferrer">irbeautyplus.com</a> –
+                    <a href="https://github.com/SamEag1e/portfolio/blob/main/beautyplus-ecommerce/overview.md"
+                        target="_blank" rel="noopener noreferrer">Overview</a><br>
+                    <p class="project-desc">Live e-commerce platform built with Django</p>
+                </li>
+
+                <li>
+                    <strong>RaceRoms Platform</strong> –
+                    <a href="https://en.raceroms.com" target="_blank" rel="noopener noreferrer">raceroms.com</a> – <a
+                        href="https://github.com/SamEag1e/portfolio/blob/main/raceroms/overview.md" target="_blank"
+                        rel="noopener noreferrer">Overview</a><br>
+                    <p class="project-desc">Niche platform for ECU tuning file services</p>
+                </li>
+
+                <li>
+                    <strong>Custom Trade Bot</strong> – <a
+                        href="https://github.com/SamEag1e/portfolio/blob/main/custom-trade-bot/overview.md"
+                        target="_blank" rel="noopener noreferrer">Overview</a><br>
+                    <p class="project-desc">A fully automated trading bot for the Forex market</p>
+                </li>
+
+                <li>
+                    <strong>Roof Estimator</strong> –
+                    <a href="https://github.com/SamEag1e/portfolio/blob/main/roof-estimator/overview.md#-access-or-demo"
+                        target="_blank" rel="noopener noreferrer">Source</a> – <a
+                        href="https://github.com/SamEag1e/portfolio/blob/main/roof-estimator/overview.md"
+                        target="_blank" rel="noopener noreferrer">Overview</a><br>
+                    <p class="project-desc">Archived learning project estimating real estate prices using Divar data</p>
+                </li>
+            </ul>
+
+            <h3>Experience</h3>
+            <p><strong>Backend Developer (Freelance)</strong><br>Mid 2024 – Present</p>
+            <ul class="clean-list-main">
+                <li>
+                    Developed and deployed a production-grade e-commerce platform using Django, Docker, and PostgreSQL.
+                    Configured Nginx, Certbot, and Cloudflare DNS for secure, scalable infrastructure.
+                </li>
+                <li>
+                    Built a modular, event-driven trading bot in Python for Forex markets.
+                    Integrated Telegram alerts and designed the codebase for extensibility.
+                </li>
+                <li>
+                    Contributed to a niche NestJS backend for ECU tuning file delivery (RaceRoms).
+                    Practiced clean service layering, GitHub PR workflows, and collaborative TypeScript development.
+                </li>
+            </ul>
+
+
+            <h3>Education</h3>
+            <p>Bachelor's in Mechanical Engineering – 2022</p>
+
+            <h3>Availability</h3>
+            <p>Remote | Freelance | Full-time</p>
+
+            <h3>Languages</h3>
+            <p>English (Advanced), Persian (Fluent), Turkish (Native)</p>
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
