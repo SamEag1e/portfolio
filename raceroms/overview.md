@@ -1,49 +1,51 @@
-# 🚀 Raceroms
+# Raceroms
 
-> **Status:** ✅ Live | 👨‍🔧 In Active Development  
-> **Tech Stack:** NestJS • TypeORM • PostgreSQL 
+> **Status:** Live | In Active Development  
+> **Tech Stack:** NestJS • TypeORM • PostgreSQL
 
 ---
 
-## 🧾 Overview
+## Overview
 
 Raceroms is a real-world platform focused on chip tuning and ECU remapping services for a wide range of vehicles — including cars, motorcycles, and trucks.
 
 Built in collaboration with [`Saeed`](https://github.com/sa8ab), I contributed backend modules to support the data infrastructure behind vehicle configurations and service management.
 
-🌐 **Live at:** [raceroms.com](https://raceroms.com)
+**Live at:** [raceroms.com](https://raceroms.com)
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
-### 🧠 Vehicle Data Management (via Crawling)
+### Vehicle Data Management (via Crawling)
+
 - Core data (brands, models, tuning specs) is **automatically populated by crawlers** pulling from third-party sources
 - Backend structured to handle and serve this dynamic, growing dataset efficiently
 
+### Backend Architecture (My Contribution)
 
-### ⚙️ Backend Architecture (My Contribution)
 - **DTOs, Services, and Controllers** for several modules
 - Structured using **NestJS** with a modular, service-oriented approach
 - Developed clean, maintainable APIs for internal and future public usage
 
-### 🌍 Multilingual & Region-Aware
+### Multilingual & Region-Aware
+
 - Supports multiple languages including **English**, **Greek**, and **Bulgarian**
 - Tailors tuning data and vehicle info based on regional specifications and availability
 
-
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![raceroms-source](./assets/raceroms-source.png)
 ![raceroms-postman](./assets/raceroms-postman.png)
 
 ---
 
-## 🤝 Access or Demo
+## Access or Demo
 
-The project is private.  
+The project is private.
+
 <p>
     Contact me if you'd like access or a walkthrough of the architecture.
     <a href="mailto:samadeagle@yahoo.com" target="_blank" rel="noreferrer">
@@ -62,7 +64,7 @@ The project is private.
 
 ---
 
-## 🧠 Lessons & Next Steps
+## Lessons & Next Steps
 
 - Gained hands-on experience contributing to a **real production-grade NestJS backend**
 - Practiced building clear Entity–DTO–Service pipelines in a collaborative Git workflow

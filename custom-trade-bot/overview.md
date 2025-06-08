@@ -1,11 +1,11 @@
-# 🤖 Custom Trade Bot
+# Custom Trade Bot
 
-> **Status:** ✅ Live | 🧪 In Development | 🔒 Private Codebase  
+> **Status:** Live | In Development | Private Codebase  
 > **Tech Stack:** Python • MetaTrader5 • Plotly
 
 ---
 
-## 🧾 Overview
+## Overview
 
 Custom Trade Bot is a Python-based trading bot built for **both live trading and backtesting** with full **MetaTrader5 integration**.
 
@@ -15,48 +15,56 @@ While the codebase is private, screenshots are provided and a walkthrough can be
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
-### 💹 MetaTrader5 Integration
+### MetaTrader5 Integration
+
 - Connects to **MetaTrader5** for real-time market data, order placement, and account tracking.
 - Efficient handling of broker interactions and API edge cases.
 
-### 🧠 Strategy & Logic
+### Strategy & Logic
+
 - Executes trades based on **client-defined entry conditions** and signals
 - Supports **custom structures** like:
   - Fair Value Gaps (FVG)
   - Liquidity
-  - Trend 
+  - Trend
   - Multi-factor entry signals
 
-### 🛠️ Custom Order Handling
+### Custom Order Handling
+
 - Flexible logic to generate **market and limit orders**
 - Dynamic control over:
   - **Lot sizing**
   - **Stop-loss / Take-profit**
   - Conditional re-entry and risk settings
 
-### 🧪 Dual Modes: Live + Backtest
+### Dual Modes: Live + Backtest
+
 - Backtest strategies on historical data with consistent execution logic
 - Seamless switch to **live mode** using the same config and entry logic
 
-### 🔄 Real-Time Control System
+### Real-Time Control System
+
 - Behavior is controlled by a `status.txt` file for:
   - Emergency shutdowns (`kill all`)
   - Enabling/disabling trading without restarting
   - Fine-tuned debug and verbosity levels
 
-### 📊 Logging & Visualization
+### Logging & Visualization
+
 - Real-time logging of decisions and trades
 - Performance analytics and **backtest visualizations** using **Plotly**
 
-### 🔧 Current Status & Refactor Notes
+### Current Status & Refactor Notes
+
 - Live trading functionality is disabled for now; bot is in **notification-only mode**
 - Codebase is being **refactored for better modularity and separation of concerns**
 - Screenshots of current Telegram alerts and the improved code structure are included
+
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![trade-bot-backtest-plotly](./assets/trade-bot-backtest-plotly-fig.png)
 ![trade-bot-results-log](./assets/trade-bot-results-log.png)
@@ -66,7 +74,7 @@ While the codebase is private, screenshots are provided and a walkthrough can be
 
 ---
 
-## 🤝 Access or Demo
+## Access or Demo
 
 <p>
     Contact me if you'd like access or a walkthrough of the architecture.
@@ -87,14 +95,14 @@ I’m open to collaborations, freelance opportunities, or contributions under ND
 
 ---
 
-## 🧠 Lessons & Next Steps
+## Lessons & Next Steps
 
 - Delivered a working bot that met all client requirements for live trading on a demo account
 - Learned how to build a fault-tolerant system for **real-world trading**, including exception handling, session control, and real-time monitoring
 - Currently used as a **signal-notification system**: Five bot instances are running on different Forex pairs, pushing alerts to a Telegram group when predefined "scenarios" are met
 - Client applies additional filters manually before executing trades based on received signals
 
-### 📦 Related Project: [OHLCraft](https://github.com/SamEag1e/OHLCraft)
+### Related Project: [OHLCraft](https://github.com/SamEag1e/OHLCraft)
 
 > This project inspired the creation of **OHLCraft**, a WIP open-source framework for building modular trading bots.  
 > [View the OHLCraft showcase](../ohlcraft/overview.md)
