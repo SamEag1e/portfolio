@@ -29,8 +29,6 @@ Each folder contains a detailed breakdown of the project, including:
 
 ## Let’s Talk
 
-Want to dive deeper into a project or see private code?
-
 <p>
     Feel free to reach out:
     <a href="mailto:samadeagle@yahoo.com" target="_blank" rel="noreferrer">
@@ -45,5 +43,5 @@ Want to dive deeper into a project or see private code?
     <a href="https://www.linkedin.com/in/samad-taghinejad/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="20" height="20" alt="LinkedIn" style="display:inline; vertical-align:middle; margin: 0 6px; text-decoration: none;" />
     </a>
-    — I’m happy to walk you through anything here.
+     I’m happy to walk you through anything here.
 </p>
