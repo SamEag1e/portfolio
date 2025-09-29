@@ -7,10 +7,10 @@
 
 ### Project Index
 
-- **[Azarbilit - Flight Booking Platform](./azarbilit/overview.md)** - Backend work at my current job, production systems (private codebase) -> **Active / Production [azarbilit.ir](https://azarbilit.ir/)**
+- **[Azarbilit - Flight Booking Platform](./azarbilit/overview.md)** - Backend work at my current job (private codebase) -> **Active / Production [azarbilit.ir](https://azarbilit.ir/)**
 - **[Custom Trade Bot](./custom-trade-bot/overview.md)** - Automated trading system in ongoing development -> **Active / Development**
 - **[Raceroms Platform](./raceroms/overview.md)** - Contributed in some parts for ECU tuning file service -> **Active / Production [raceroms.com](https://en.raceroms.com/)**
-- **[BeautyPlus - Skincare E-Commerce](./beautyplus-ecommerce/overview.md)** - Was live, now offline; built with Django -> **Completed / Offline [irbeautyplus.com](https://irbeautyplus.com/)**
+- **[BeautyPlus - Skincare E-Commerce](./beautyplus-ecommerce/overview.md)** - Was live, built with Django -> **Completed / Offline [irbeautyplus.com](https://irbeautyplus.com/)**
 - **[Roof Estimator](./roof-estimator/overview.md)** - Real estate estimation project (Divar data) -> **Archived**
 
 #### Work in Progress
@@ -30,7 +30,7 @@ Each project includes:
 - Screenshots & Demos
 - Key Challenges Solved
 - Deployment Notes (if applicable)
-- **Status & Roadmap** (clear development stage)
+- Status & Roadmap (clear development stage)
 
 ---
 
