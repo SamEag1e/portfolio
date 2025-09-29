@@ -1,17 +1,17 @@
 # BeautyPlus – Skincare E-Commerce Platform
 
-> **Status:** Live | In Development | Private Codebase  
-> **Tech Stack:** Django • PostgreSQL • Docker • Nginx • Cloudflare SSL • HTML • CSS • JavaScript • jQuery
+> **Status:** Production-Ready | Temporarily Offline (can be relaunched on demand)  
+> **Tech Stack:** Django | PostgreSQL | Docker | Nginx | Cloudflare SSL | HTML | CSS | JavaScript | jQuery
 
 ---
 
 ## Overview
 
-This project is a fully functional e-commerce platform built with Django.  
-It features user authentication via OTP, recursive product categories, and user/admin panels.
+A full-featured e-commerce platform built with Django, designed for real-world deployment.  
+It includes OTP-based authentication, recursive product categories, and dedicated user/admin panels.
 
-Originally developed as a real-world project, it is **currently live at:**  
-[irbeautyplus.com](https://irbeautyplus.com)
+The platform was successfully deployed to production and **can be brought back online at:**  
+[irbeautyplus.com](https://irbeautyplus.com) _(currently offline)_
 
 ---
 
@@ -19,40 +19,39 @@ Originally developed as a real-world project, it is **currently live at:**
 
 ### Authentication System
 
-- **OTP-based login** using phone numbers — a secure, password-less approach
+- **OTP-based login** via phone numbers - passwordless and secure
 
 ### Modular E-Commerce Backend
 
 - **Recursive product categories** using MPTT
-- **Extensible Core Apps:** Built modular from day one — including Products, Carts, Orders, Notifications, Tags, and Accounts
+- **Extensible Core Apps:** Products, Carts, Orders, Notifications, Tags, Accounts
 
 ### Project Structure & Design Philosophy
 
-- **Modular code structure**: Models, forms, and admin classes are split into separate modules — even for simpler apps
-  - This design optimizes for long-term maintainability, localization (e.g., i18n), and easy admin customization
-- Introduced a **service layer (singleton class per model)** to centralize business logic
-  - Inspired by best practices from **NestJS** and other backend frameworks
-  - Helps isolate logic and reduce tight coupling between apps
+- **Modular code structure**: models, forms, and admin split for maintainability
+- Introduced a **service layer (singleton per model)** to isolate business logic
+  - Inspired by **NestJS** best practices
+  - Decouples apps, easier testing & reuse
 
 ### SEO & Social Media Optimization
 
-- **Auto-generated meta tags** tailored for products, brands, and categories
-- Dynamic **Open Graph images (og:image)** for rich social media previews
-- **JSON-LD schema markup** for products to boost search engine understanding and rich results
-- Fully managed **sitemap generation** with Django to keep search engines updated
-- Clean, **smart hierarchical slugs** powering SEO-friendly URLs with clear category and product nesting
+- Auto-generated **meta tags** for products, brands, categories
+- Dynamic **Open Graph images (og:image)**
+- Rich **JSON-LD schema markup** for products
+- Fully managed **sitemap generation**
+- Smart hierarchical slugs for SEO-friendly URLs
 
 ### Deployment & Infrastructure
 
-- **Dockerized** for consistent and portable deployments
-- Configured **Nginx** as a reverse proxy with **Certbot** for automated SSL certificates
-- DNS managed via **Cloudflare** for performance and security
-- **Cron jobs** set up for routine maintenance tasks
+- **Dockerized** for consistent deployments
+- **Nginx reverse proxy + Certbot SSL**
+- **Cloudflare DNS** for performance & security
+- **Cron jobs** for maintenance
 
 ### Backup & Disaster Recovery
 
-- Automated daily backups using `rclone` to Google Drive
-- Backups are lightweight, encrypted, and versioned to ensure data integrity and project continuity
+- Automated **encrypted daily backups** to Google Drive via `rclone`
+- Versioned backups ensuring data integrity
 
 ---
 
@@ -68,21 +67,21 @@ Originally developed as a real-world project, it is **currently live at:**
 
 ## Access or Demo
 
-The codebase is in a private repository.
+Codebase is private.  
+Contact me for an **architecture walkthrough or live demo re-deployment**.
 
 <p>
-    Contact me if you'd like access or a walkthrough of the architecture.
     <a href="mailto:samadeagle@yahoo.com" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/fluency/20/new-post.png" width="20" height="20" alt="Email" style="display:inline; text-decoration: none; vertical-align:middle; margin: 0 6px;" />
+    <img src="https://img.icons8.com/fluency/20/new-post.png" width="20" height="20" alt="Email" style="display:inline; margin: 0 6px;" />
     </a>
     <a href="https://wa.me/989146446078" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/color/20/whatsapp--v1.png" width="20" height="20" alt="WhatsApp" style="display:inline; text-decoration: none; vertical-align:middle; margin: 0 6px;" />
+    <img src="https://img.icons8.com/color/20/whatsapp--v1.png" width="20" height="20" alt="WhatsApp" style="display:inline; margin: 0 6px;" />
     </a>
     <a href="https://t.me/SamadTnd" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/ios-filled/20/0088cc/telegram-app.png" width="20" height="20" alt="Telegram" style="display:inline; text-decoration: none; vertical-align:middle; margin: 0 6px;" />
+    <img src="https://img.icons8.com/ios-filled/20/0088cc/telegram-app.png" width="20" height="20" alt="Telegram" style="display:inline; margin: 0 6px;" />
     </a>
     <a href="https://www.linkedin.com/in/samad-taghinejad/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="20" height="20" alt="LinkedIn" style="display:inline; text-decoration: none; vertical-align:middle; margin: 0 6px;" />
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="20" height="20" alt="LinkedIn" style="display:inline; margin: 0 6px;" />
     </a>
 </p>
 
@@ -90,12 +89,17 @@ The codebase is in a private repository.
 
 ## Lessons & Next Steps
 
-- Explored Django’s **GenericForeignKey**, `ContentType`, and `GenericRelation` mechanics
-- Ultimately chose **explicit, readable design** over abstract “magic”:
-  - Ratings implemented via a `BaseRate` model inherited per target type, even though this feature is not yet live on the UI (e.g., `ProductRate`, `BlogRate`)
-  - Categories follow the same logic (`BaseCategory` → `ProductCategory`, `BlogCategory`, etc.)
-- Result: **clearer models**, **cleaner queries**, better admin integration, and more maintainable code
-- Learned deep integrations of Django with real deployment scenarios
-- Future plans: Add payment gateway, refine order flow, improve admin UX
+- Mastered **GenericForeignKey/ContentType/GenericRelation** in Django
+- Ultimately preferred **explicit inheritance over magic** for clarity:
+  - Ratings via a `BaseRate` model → extended per type (`ProductRate`, `BlogRate`, etc.)
+  - Same for categories (`BaseCategory` → `ProductCategory`, `BlogCategory`, etc.)
+- Tradeoff: slightly more boilerplate, but **cleaner queries, admin integration, and long-term maintainability**
+- Learned to run Django in **real production deployments**
+- Future roadmap:
+  - Order flow refinements
+  - Improved admin UX
+  - Relaunch live instance
+
+---
 
 ### 🔙 [Back to Project Index](../README.md)
