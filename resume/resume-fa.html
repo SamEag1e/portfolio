@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samad Taghinejad | Backend Developer Resume</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@latest/dist/font-face.css" rel="stylesheet" type="text/css" />
     <style>
         * {
             box-sizing: border-box;
@@ -14,9 +15,9 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Lora', 'Segoe UI', sans-serif;
+            font-family: 'Vazir', 'Segoe UI', sans-serif;
             font-size: 14px;
-            line-height: 1.6;
+            line-height: 1.8;
             background: #f9f9f9;
             color: #333;
         }
@@ -26,7 +27,8 @@
         h3,
         h5,
         h6 {
-            font-family: 'Lora', serif;
+            font-family: 'Vazir', 'Trebuchet MS', sans-serif;
+            letter-spacing: 0.5px;
         }
 
         .resume {
@@ -66,6 +68,7 @@
         }
 
         .sidebar h4 {
+            text-align: right;
             border-bottom: 2px solid rgba(255, 255, 255, 0.3);
             padding-bottom: 4px;
             margin-bottom: 4px;
@@ -159,16 +162,17 @@
     </style>
 </head>
 
+
 <body>
     <div class="resume">
         <div class="sidebar">
             <img src="./assets/meh.jpg" alt="Profile Picture">
-            <h2>Samad Taghinejad</h2>
-            <p>Backend Developer <br> Python & Node.js</p>
+            <h2>صمد تقی‌نژاد</h2>
+            <p>توسعه‌دهنده بک‌اند <br> Python & Node.js</p>
 
             <div class="skills">
-                <h4>Tech Stack</h4>
-                <ul class="clean-list-sidebar">
+                <h4>مهارت‌ها</h4>
+                <ul class="clean-list-sidebar" dir="ltr">
                     <li>Python, Django, DRF</li>
                     <li>Node.js, Express.js, NestJS</li>
                     <li>PostgreSQL, MySQL, MongoDB, Redis</li>
@@ -180,10 +184,10 @@
             </div>
 
             <div class="contact">
-                <h4>Contact</h4>
-                <ul class="clean-list-sidebar">
+                <h4>راه‌های ارتباطی</h4>
+                <ul class="clean-list-sidebar" dir="ltr">
                     <li>Email: <a href="mailto:samadtnd@gmail.com" rel="noopener noreferrer" target="_blank">samadtnd@gmail.com</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/samad-taghinejad/" rel="noopener noreferrer" target="_blank">Samad Taghinejad</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/samad-taghinejad/" rel="noopener noreferrer" target="_blank">Samad Taghinezhad</a></li>
                     <li>GitHub: <a href="https://github.com/SamEag1e" rel="noopener noreferrer" target="_blank">SamEag1e</a></li>
                     <li>Telegram: <a href="https://t.me/SamadTnd" rel="noopener noreferrer" target="_blank">@SamadTnd</a></li>
                 </ul>
@@ -192,66 +196,63 @@
 
         <div class="main">
 
-            <h3>Profile</h3>
+            <h3>معرفی</h3>
             <p>
-                Backend developer with production experience in Python (Django/DRF) and Node.js (Express/NestJS).
-                Skilled in designing scalable APIs, integrating third-party providers, and maintaining mission-critical systems under high traffic.
-                Strong focus on clean, testable code and reliable deployments.
+                توسعه‌دهنده بک‌اند با تجربه عملی در Python (Django/DRF) و Node.js (Express/NestJS).
+                توانمند در طراحی APIهای مقیاس‌پذیر، یکپارچه‌سازی سرویس‌های شخص ثالث و نگهداری سیستم‌های حیاتی تحت بار ترافیک بالا.
+                تمرکز ویژه بر کدنویسی تمیز، قابل تست، نگهداری و توسعه.
             </p>
 
-            <h3>Experience</h3>
+            <h3>تجربه کاری</h3>
             <p>
                 <strong>
-                    Full-Time Backend Developer – 
-                    <a href="https://azarbilit.ir" target="_blank" rel="noopener noreferrer">azarbilit.ir</a> – 
-                    <a href="https://github.com/SamEag1e/portfolio/blob/main/azarbilit/overview.md" target="_blank" rel="noopener noreferrer">Overview</a>
+                    توسعه‌دهنده بک‌اند تمام‌وقت - 
+                    <a href="https://azarbilit.ir" target="_blank" rel="noopener noreferrer">azarbilit.ir</a> - 
+                    <a href="https://github.com/SamEag1e/portfolio/blob/main/azarbilit/overview.md" target="_blank" rel="noopener noreferrer">جزئیات</a>
                 </strong>
-                <br>May 2025 – Present
+                <br>خرداد ۱۴۰۴ - تا کنون
             </p>
             <p>
-                Backend developer in a flight booking system, modernizing legacy code, integrating providers, and ensuring reliable, high-traffic operations.
+                توسعه‌دهنده بک‌اند در سیستم رزرو پرواز، بازسازی کدهای قدیمی، یکپارچه‌سازی تامین کنندگان و تضمین عملکرد پایدار تحت ترافیک بالا.
             </p>
             <ul class="clean-list-main">
-                <li>Migrated legacy Express.js APIs to TypeScript with validation (Zod) and documentation (Swagger).</li>
-                <li>Integrated and normalized SOAP/XML providers (Mahan, IranAir) alongside newer APIs (Sepehr, Sepehran, Nira).</li>
-                <li>Built fault-tolerant search pipelines with caching and throttling for thousands of daily requests.</li>
-                <li>Maintained and refactored a large NestJS + MariaDB/TypeORM service (~140 endpoints).</li>
-                <li>Introduced testing culture with Jest + Supertest, including provider mocks.</li>
-                <li>Worked in a lean team with Git workflows and production-grade practices.</li>
+                <li>مهاجرت APIهای قدیمی Express.js به TypeScript با اعتبارسنجی (Zod) و مستندسازی (Swagger).</li>
+                <li>یکپارچه‌سازی و نرمال‌سازی تامین کنندگان SOAP/XML (ماهان، ایران ایر) همراه با APIهای جدیدتر (سپهر، سپهران، نیرا).</li>
+                <li>ساخت خطوط جستجوی مقاوم در برابر خطا با کشینگ و محدودسازی برای هزاران درخواست روزانه.</li>
+                <li>نگهداری و بازسازی سرویس بزرگ NestJS + MariaDB/TypeORM (~۱۴۰ endpoint).</li>
+                <li>ایجاد فرهنگ تست با Jest + Supertest شامل شبیه‌سازی ارائه‌دهندگان.</li>
+                <li>کار در تیم کوچک با فرآیندهای Git و استانداردهای حرفه‌ای تولید.</li>
             </ul>
 
-
-
-
-            <p><strong>Backend Developer (Freelance)</strong><br>Mid 2024 - May 2025</p>
+            <p><strong>توسعه‌دهنده بک‌اند (فریلنس)</strong><br>خرداد ۱۴۰۳ - خرداد ۱۴۰۴</p>
             <ul class="clean-list-main">
                 <li>
-                    Developed and deployed e-commerce platform with Django, Docker, and PostgreSQL.
-                    <!-- <a href="https://irbeautyplus.com" target="_blank" rel="noopener noreferrer">irbeautyplus.com</a> -  -->
-                    <a href="https://github.com/SamEag1e/portfolio/blob/main/beautyplus-ecommerce/overview.md" target="_blank" rel="noopener noreferrer">BeautyPlus Overview</a><br>
+                    توسعه و استقرار پلتفرم تجارت الکترونیک با Django، Docker و PostgreSQL.<br>
+                    <a href="https://github.com/SamEag1e/portfolio/blob/main/beautyplus-ecommerce/overview.md" target="_blank" rel="noopener noreferrer">جزئیات BeautyPlus</a><br>
                 </li>
                 <li>
-                    Built modular trading bot in Python with MT5, alerts, and extensibility.
-                    <a href="https://github.com/SamEag1e/portfolio/blob/main/custom-trade-bot/overview.md" target="_blank" rel="noopener noreferrer">TradeBot Overview</a><br>
+                    ساخت ربات معاملاتی مدولار در Python با MT5، شامل هشدارها و قابلیت توسعه.
+                    <a href="https://github.com/SamEag1e/portfolio/blob/main/custom-trade-bot/overview.md" target="_blank" rel="noopener noreferrer">جزئیات TradeBot</a><br>
                 </li>
                 <li>
-                    Contributed NestJS backend modules for RaceRoms ECU tuning file service. 
+                    مشارکت در ماژول‌های بک‌اند NestJS برای سرویس فایل ECU در RaceRoms.
                     <a href="https://en.raceroms.com" target="_blank" rel="noopener noreferrer">raceroms.com</a> - 
-                    <a href="https://github.com/SamEag1e/portfolio/blob/main/raceroms/overview.md" target="_blank" rel="noopener noreferrer">Overview</a><br> 
+                    <a href="https://github.com/SamEag1e/portfolio/blob/main/raceroms/overview.md" target="_blank" rel="noopener noreferrer">جزئیات</a><br>
                 </li>
             </ul>
 
-            <h3>Education</h3>
-            <p>Bachelor's in Mechanical Engineering - 2022</p>
+            <h3>تحصیلات</h3>
+            <p>لیسانس مهندسی مکانیک دانشگاه سراسری تبریز - ۱۴۰۱</p>
 
-            <h3>Languages</h3>
-            <p>English (Advanced), Persian (Fluent), Turkish (Native)</p>
+            <h3>زبان‌ها</h3>
+            <p>انگلیسی (پیشرفته)، فارسی (روان)، ترکی (زبان مادری)</p>
 
-            <h3>Availability</h3>
-            <p>Remote | Freelance | Full-time</p>
+            <h3>دسترس‌پذیری</h3>
+            <p>دورکاری | فریلنس | تمام‌وقت</p>
 
         </div>
     </div>
 </body>
+
 
 </html>
