@@ -78,7 +78,10 @@ Here’s where I can share visuals that demonstrate my work:
 - **Architecture diagrams** of provider → system pipelines
 - **Code excerpts** (non-sensitive, e.g., reusable validators/transformers)
 
-![placeholder](./assets/placeholder.jpg)
+![azarbilit-overall](./assets/azarbilit-overall.png)
+![azarbilit-testcov](./assets/azarbilit-testcov.png)
+![azarbilit-provider-abstract](./assets/azarbilit-provider-abstract.png)
+![azarbilit-testcov-final](./assets/azarbilit-testcov-final.png)
 
 ---
 
