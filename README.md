@@ -5,7 +5,7 @@
 
 ---
 
-### Project Index
+### Index
 
 - **[Azarbilit - Flight Booking Platform](./azarbilit/overview.md)** - Backend work at my current job -> **Active / Production [azarbilit.ir](https://azarbilit.ir/)**
 - **[Custom Trade Bot](./custom-trade-bot/overview.md)** - Automated trading system in ongoing development -> **Active / Development**
@@ -15,9 +15,9 @@
 
 #### Work in Progress
 
+- **[Aitika-Div](./aitika/overview.md)** - Current fulltime job since Nov 2025
+- **[Nucleus-api](./nucleus-api/overview.md)** - A modular Express 5 + TypeScript + MongoDB boilerplate for building production-ready APIs fast. -> **In Free Times**
 - **[OHLCraft](./ohlcraft/overview.md)** - Bot framework idea in early development -> **Planned / On Hold**
-- **CRM (Schools Dashboard)** - Side project in early development for managing schools -> **Planned / Concept**
-- **Barcode (B2B Service)** - Business-to-business tool idea to bring to life later -> **Planned / Concept**
 
 ---
 
