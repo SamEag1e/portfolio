@@ -7,7 +7,8 @@
 
 ### Index
 
-- **[Azarbilit - Flight Booking Platform](./azarbilit/overview.md)** - Backend work at my current job -> **Active / Production [azarbilit.ir](https://azarbilit.ir/)**
+- **[Aitika-Div](./aitika/overview.md)** - Current fulltime job since Nov 2025
+- **[Azarbilit - Flight Booking Platform](./azarbilit/overview.md)** - Fulltime backend work at a travel agency -> **Active / Production [azarbilit.ir](https://azarbilit.ir/)**
 - **[Custom Trade Bot](./custom-trade-bot/overview.md)** - Automated trading system in ongoing development -> **Active / Development**
 - **[Raceroms Platform](./raceroms/overview.md)** - Contributed in some parts for ECU tuning file service -> **Active / Production [raceroms.com](https://en.raceroms.com/)**
 - **[BeautyPlus - Skincare E-Commerce](./beautyplus-ecommerce/overview.md)** - Was live, built with Django -> **Completed / Offline [irbeautyplus.com](https://irbeautyplus.com/)**
@@ -15,7 +16,6 @@
 
 #### Work in Progress
 
-- **[Aitika-Div](./aitika/overview.md)** - Current fulltime job since Nov 2025
 - **[Nucleus-api](./nucleus-api/overview.md)** - A modular Express 5 + TypeScript + MongoDB boilerplate for building production-ready APIs fast. -> **In Free Times**
 - **[OHLCraft](./ohlcraft/overview.md)** - Bot framework idea in early development -> **Planned / On Hold**
 

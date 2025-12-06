@@ -1,6 +1,6 @@
 # Azarbilit – Flight Booking Platform
 
-> **Status:** Active Employment | Production Systems | Private Codebase  
+> **Status:** Former Backend Developer | Production Systems | Private Codebase  
 > **Tech Stack:** Node.js • TypeScript • Express 5 • NestJS • MongoDB • MariaDB/TypeORM • Redis • Swagger • Zod
 
 ## Overview
