@@ -5,7 +5,7 @@
 
 ## Overview
 
-As a **Backend Developer** at **[Azarbilit](https://azarbilit.ir/)** (May 2025 – Present), I work on the company’s core flight booking systems.  
+As a **Backend Developer** at **[Azarbilit](https://azarbilit.ir/)** (May 2025 – Nov 2025), I worked on the company’s core flight booking systems.  
 This includes migrating legacy services, building new APIs, and maintaining production flows handling thousands of daily requests.
 
 While the **codebase is private**, this entry highlights my role, responsibilities, and key contributions.
@@ -23,7 +23,7 @@ While the **codebase is private**, this entry highlights my role, responsibiliti
   - Built **regex-based extractors** and transformation pipelines
   - Normalized outputs into structured, typed data for internal use
 - Designed **custom reusable objects** (Itinerary, Slice, Segment) as a consistent internal schema
-  - Providers only “fill the shape” — the rest of the system consumes our clean abstractions
+  - Providers only “fill the shape” - the rest of the system consumes our clean abstractions
 - Introduced a **fault-tolerant search pipeline**:
   - Reduced redundant provider calls with **caching** and **cron jobs**
   - Supported **high-load conditions** by spreading and limiting provider I/O
@@ -47,7 +47,7 @@ While the **codebase is private**, this entry highlights my role, responsibiliti
   - Fixed “permanent IBAN verification” bug that allowed invalid accounts
 - Navigated legacy challenges:
   - **God functions**, hardcoded values, and no documentation
-  - Required extreme caution — **every change reviewed and tested multiple times** before production
+  - Required extreme caution - **every change reviewed and tested multiple times** before production
 - Improved maintainability:
   - Added **Swagger docs** for endpoints
   - Planned and executed **gradual refactors** to untangle the codebase

@@ -1,15 +1,15 @@
 # Raceroms
 
-> **Status:** Live | In Active Development  
+> **Status:** Live | Former contribution
 > **Tech Stack:** NestJS • TypeORM • PostgreSQL
 
 ---
 
 ## Overview
 
-Raceroms is a real-world platform focused on chip tuning and ECU remapping services for a wide range of vehicles — including cars, motorcycles, and trucks.
+Raceroms is a platform for chip tuning and ECU remapping services for a wide range of vehicles - cars, motorcycles, and trucks.
 
-Built in collaboration with [`Saeed`](https://github.com/sa8ab), I contributed backend modules to support the data infrastructure behind vehicle configurations and service management.
+I contributed backend modules in collaboration with [`Saeed`](https://github.com/sa8ab) to support the data infrastructure behind vehicle configurations and service management.
 
 **Live at:** [raceroms.com](https://raceroms.com)
 
@@ -20,11 +20,11 @@ Built in collaboration with [`Saeed`](https://github.com/sa8ab), I contributed b
 ### Vehicle Data Management (via Crawling)
 
 - Core data (brands, models, tuning specs) is **automatically populated by crawlers** pulling from third-party sources
-- Backend structured to handle and serve this dynamic, growing dataset efficiently
+- Backend was structured to handle and serve this dynamic, growing dataset efficiently
 
 ### Backend Architecture (My Contribution)
 
-- **DTOs, Services, and Controllers** for several modules
+- Implemented **DTOs, Services, and Controllers** for several modules
 - Structured using **NestJS** with a modular, service-oriented approach
 - Developed clean, maintainable APIs for internal and future public usage
 

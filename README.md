@@ -1,23 +1,22 @@
 # Project Portfolio
 
-> A curated showcase of my key software projects - from production systems to experiments and side ideas.  
-> I build and maintain scalable systems using Python, Django, Node.js, Docker, and more.
+> A curated showcase of my key software projects - from production systems to experiments and side ideas.
 
 ---
 
 ### Index
 
-- **[Aitika-Div](./aitika/overview.md)** - Current fulltime job since Nov 2025
-- **[Azarbilit - Flight Booking Platform](./azarbilit/overview.md)** - Fulltime backend work at a travel agency -> **Active / Production [azarbilit.ir](https://azarbilit.ir/)**
-- **[Custom Trade Bot](./custom-trade-bot/overview.md)** - Automated trading system in ongoing development -> **Active / Development**
-- **[Raceroms Platform](./raceroms/overview.md)** - Contributed in some parts for ECU tuning file service -> **Active / Production [raceroms.com](https://en.raceroms.com/)**
-- **[BeautyPlus - Skincare E-Commerce](./beautyplus-ecommerce/overview.md)** - Was live, built with Django -> **Completed / Offline [irbeautyplus.com](https://irbeautyplus.com/)**
-- **[Roof Estimator](./roof-estimator/overview.md)** - Real estate estimation project (Divar data) -> **Archived**
+- **[Aitika – Div](./aitika/overview.md)** - **Current role** · Fulltime backend lead since Nov 2025
+- **[Azarbilit – Flight Booking Platform](./azarbilit/overview.md)** - Former fulltime backend at a travel agency → **Production** [azarbilit.ir](https://azarbilit.ir/)
+- **[Custom Trade Bot](./custom-trade-bot/overview.md)** - Automated trading system (MetaTrader5) → **Not actively developed** / notification mode
+- **[Raceroms Platform](./raceroms/overview.md)** - Contributed backend modules for ECU tuning file service → **Production** [raceroms.com](https://en.raceroms.com/) · no longer contributing
+- **[BeautyPlus – Skincare E-Commerce](./beautyplus-ecommerce/overview.md)** - Django e-commerce, was live → **Completed / Offline** [irbeautyplus.com](https://irbeautyplus.com/)
+- **[Roof Estimator](./roof-estimator/overview.md)** - Real estate estimation (Divar data) → **Archived**
 
-#### Work in Progress
+#### Side / On hold
 
-- **[Nucleus-api](./nucleus-api/overview.md)** - A modular Express 5 + TypeScript + MongoDB boilerplate for building production-ready APIs fast. -> **In Free Times**
-- **[OHLCraft](./ohlcraft/overview.md)** - Bot framework idea in early development -> **Planned / On Hold**
+- **[Nucleus-api](./nucleus-api/overview.md)** - Express 5 + TypeScript + MongoDB API boilerplate → in free time
+- **[OHLCraft](./ohlcraft/overview.md)** - Trading bot framework idea → **Planned / On hold**
 
 ---
 

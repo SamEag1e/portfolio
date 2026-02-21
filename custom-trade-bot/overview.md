@@ -1,17 +1,17 @@
 # Custom Trade Bot
 
-> **Status:** Live | In Development | Private Codebase  
+> **Status:** Not actively developed | Private Codebase | Notification mode in use  
 > **Tech Stack:** Python • MetaTrader5 • Plotly
 
 ---
 
 ## Overview
 
-Custom Trade Bot is a Python-based trading bot built for **both live trading and backtesting** with full **MetaTrader5 integration**.
+Custom Trade Bot is a Python-based trading bot I built for **both live trading and backtesting** with full **MetaTrader5 integration**.
 
-It’s built around a custom trading strategy and includes **modular components** for signal generation, dynamic order handling, and bot control — making it highly adaptable to different market conditions.
+It was built around a custom trading strategy and includes **modular components** for signal generation, dynamic order handling, and bot control.
 
-While the codebase is private, screenshots are provided and a walkthrough can be provided on request.
+The codebase is private; screenshots are provided and a walkthrough can be provided on request.
 
 ---
 
@@ -56,11 +56,11 @@ While the codebase is private, screenshots are provided and a walkthrough can be
 - Real-time logging of decisions and trades
 - Performance analytics and **backtest visualizations** using **Plotly**
 
-### Current Status & Refactor Notes
+### Status & Refactor Notes
 
-- Live trading functionality is disabled for now; bot is in **notification-only mode**
-- Codebase is being **refactored for better modularity and separation of concerns**
-- Screenshots of current Telegram alerts and the improved code structure are included
+- Live trading was disabled; the bot runs in **notification-only mode**
+- The codebase was **refactored for better modularity and separation of concerns**
+- Screenshots of Telegram alerts and the improved code structure are included
 
 ---
 
@@ -98,8 +98,7 @@ I’m open to collaborations, freelance opportunities, or contributions under ND
 
 - Delivered a working bot that met all client requirements for live trading on a demo account
 - Learned how to build a fault-tolerant system for **real-world trading**, including exception handling, session control, and real-time monitoring
-- Currently used as a **signal-notification system**: Five bot instances are running on different Forex pairs, pushing alerts to a Telegram group when predefined "scenarios" are met
-- Client applies additional filters manually before executing trades based on received signals
+- The bot is used as a **signal-notification system**: multiple instances ran on different Forex pairs, pushing alerts to a Telegram group when predefined "scenarios" were met; the client applied additional filters manually before executing trades
 
 ### Related Project: [OHLCraft](https://github.com/SamEag1e/OHLCraft)
 

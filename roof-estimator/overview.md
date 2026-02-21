@@ -7,7 +7,7 @@
 
 ## Overview
 
-This multi-phase project was my deep dive into data extraction, simple web app design, and bot-based user interfaces — all centered around one real-world goal: **estimate property prices from Divar listings.**
+This multi-phase project was my deep dive into data extraction, simple web app design, and bot-based user interfaces - all centered around one real-world goal: **estimate property prices from Divar listings.**
 
 It started with scraping, pivoted to API-based collection, and eventually grew into a Django frontend and a Telegram bot for price queries. While none of the components are live or production-grade now, this archive captures my first end-to-end attempt at solving a real problem.
 

@@ -1,15 +1,15 @@
 # OHLCraft
 
-> **Status:** In Development | Idea-to-Execution Phase  
+> **Status:** On hold | Idea / early planning  
 > **Tech Stack:** Python • Planning for: Pytest • Docstrings • MetaTrader5
 
 ---
 
 ## Overview
 
-**OHLCraft** is a work-in-progress Python project aimed at becoming a **minimal, beginner-friendly framework for building trading bots** — inspired by lessons learned while building [CustomTradeBot](../custom-trade-bot/overview.md).
+**OHLCraft** is a planned Python project aimed at becoming a **minimal, beginner-friendly framework for building trading bots** - inspired by lessons learned while building [CustomTradeBot](../custom-trade-bot/overview.md).
 
-While still in its early stages, the goal is to simplify the architecture of algo bots by focusing on:
+The goal was to simplify the architecture of algo bots by focusing on:
 
 - **Separation of concerns**
 - **Modular strategy components**
@@ -19,7 +19,7 @@ While still in its early stages, the goal is to simplify the architecture of alg
 
 ## Why Build This?
 
-There are already mature trading bot frameworks out there — but most of them:
+There are already mature trading bot frameworks out there - but most of them:
 
 - Have steep learning curves
 - Are designed for advanced use cases or large teams
@@ -31,7 +31,7 @@ OHLCraft is my attempt to create something **simple yet extensible**, something 
 
 ## Core Vision
 
-The project isn’t complete yet — but the **architecture is being shaped around real-world lessons**, including:
+The project is on hold - the **architecture was intended to be shaped around real-world lessons**, including:
 
 - How to keep strategy logic isolated and testable
 - How to switch between backtest and live modes with minimal changes
@@ -45,26 +45,24 @@ Most components will be adapted and polished from CustomTradeBot, with improveme
 
 ---
 
-## Current Progress
+## Progress
 
-Right now, it’s just a [README with a roadmap](https://github.com/SamEag1e/OHLCraft) and some notes from CustomTradeBot.
-
-But that’s how all open source starts — with an idea and the guts to build in public.
+So far it’s a [README with a roadmap](https://github.com/SamEag1e/OHLCraft) and some notes from CustomTradeBot. Work is paused.
 
 ---
 
 ## Lessons & Next Steps
 
-- Not every repo needs to be “done” to be valuable — this one is a **learning playground with serious potential**
-- I’m planning to:
-  - Start modularizing CustomTradeBot logic into standalone components
-  - Add real documentation and tests
+- Not every repo needs to be “done” to be valuable - this one was intended as a **learning playground with potential**
+- Planned next steps (when resumed):
+  - Modularize CustomTradeBot logic into standalone components
+  - Add documentation and tests
   - Explore a plug-and-play config layer for future users
 
 ---
 
 ## Interested?
 
-If you’re into algo trading, beginner-friendly frameworks, or just want to watch this grow — feel free to **follow**, **fork**, or shoot me ideas.
+If you’re into algo trading, beginner-friendly frameworks, or just want to watch this grow - feel free to **follow**, **fork**, or shoot me ideas.
 
 ### 🔙 [Back to Project Index](../README.md)
