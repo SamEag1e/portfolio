@@ -100,10 +100,10 @@ I’m open to collaborations, freelance opportunities, or contributions under ND
 - Learned how to build a fault-tolerant system for **real-world trading**, including exception handling, session control, and real-time monitoring
 - The bot is used as a **signal-notification system**: multiple instances ran on different Forex pairs, pushing alerts to a Telegram group when predefined "scenarios" were met; the client applied additional filters manually before executing trades
 
-### Related Project: [OHLCraft](https://github.com/SamEag1e/OHLCraft)
+<!-- ### Related Project: [OHLCraft](https://github.com/SamEag1e/OHLCraft)
 
-> This project inspired the creation of **OHLCraft**, a WIP open-source framework for building modular trading bots.  
-> [View the OHLCraft showcase](../ohlcraft/overview.md)
+> This project inspired the creation of **OHLCraft**, a WIP open-source framework for building modular trading bots.
+> [View the OHLCraft showcase](../ohlcraft/overview.md) -->
 
 ---
 

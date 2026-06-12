@@ -1,6 +1,6 @@
 # Roof Estimator (Archived Learning Project)
 
-> **Status:** Archived • Experimental • Codebase Public  
+> **Status:** Archived • Experimental  
 > **Tech Stack:** Python • Django • Telegram Bot API • MySQL • Scrapy/Selenium • Divar API
 
 ---
@@ -45,14 +45,14 @@ It started with scraping, pivoted to API-based collection, and eventually grew i
 
 ---
 
-## Access or Demo
+<!-- ## Access or Demo
 
 Codebases are archived but publicly available:
 
 - [Divar-Scrapy-Selenium](https://github.com/SamEag1e/Divar-Scrapy-Selenium)
 - [Divar-API-Crawler](https://github.com/SamEag1e/Divar-API-Crawler)
 - [dj-RoofRealEstate](https://github.com/SamEag1e/dj-RoofRealEstate)
-- [tgbot-RoofRealEstatePrice](https://github.com/SamEag1e/tgbot-RoofRealEstatePrice)
+- [tgbot-RoofRealEstatePrice](https://github.com/SamEag1e/tgbot-RoofRealEstatePrice) -->
 
 ---
 
