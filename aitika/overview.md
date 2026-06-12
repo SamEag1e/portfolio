@@ -1,46 +1,87 @@
-# Aitika – Div
+# It-K – Div
 
 > **Status:** Active Employment | Startup | Private Codebase  
-> **Tech Stack:** Node.js • NestJS • GraphQL • Docker • Redis • BullMQ • Elasticsearch • Linux • CI/CD (GitHub Actions)  
-> **Role:** Backend lead (3-person backend team) • Since Nov 2025
+> **Tech Stack:** Node.js • NestJS • GraphQL • PostgreSQL • Redis • BullMQ • Elasticsearch • Docker • Linux • Nginx • GitHub Actions  
+> **Role:** Backend Lead (3-person backend team) • Since Nov 2025
 
 ---
 
 ## Overview
 
-Aitika is a startup building a commerce and marketplace platform with e-commerce at its core, evolving toward **marketplace** features (auctions, customer-submitted listings), plus integrations for **crypto payments** (Bitcoin, USDT, etc.), **blockchain/NFT** generation, **LLM-based legal contract** generation between parties, and **vision AI** for originality checks on custom products.
+It-K is a commerce and marketplace platform built around e-commerce, gradually expanding toward marketplace capabilities such as auctions, customer-owned listings, digital ownership, and AI-assisted workflows.
 
-I joined as backend lead in a small backend team. The shop foundation (products, users, payments, multi-language, multi-currency, multiple payment methods) is fully implemented and in use; my focus has been on designing and implementing the most complex, high-value areas and on documentation and DevOps.
+The platform includes support for multi-language and multi-currency commerce, multiple payment providers, auction-based trading, listing verification workflows, and future integrations involving crypto payments, NFT generation, AI-assisted contract generation, and computer vision services.
+
+As Backend Lead, I have been responsible for designing and implementing core platform capabilities, driving architectural decisions, improving development workflows, documenting critical systems, and building deployment infrastructure.
 
 ---
 
 ## Key Contributions
 
-### E-commerce & Platform Foundation
+### Platform Foundation
 
-- **E-commerce** - Products, users, payments, multi-language, multi-currency, and multiple payment gateways are implemented and functional.
-- **Research & tooling** - Evaluated and adopted ready-made solutions for ~80% of shop needs, reducing custom code and delivery time.
+- Designed and implemented core commerce workflows including products, users, payments, localization, and currency handling.
+- Evaluated and integrated existing solutions where appropriate, reducing implementation effort and accelerating delivery timelines.
+- Contributed to platform architecture decisions with focus on maintainability, extensibility, and long-term scalability.
 
-### Auction & Listings (Design & Implementation)
+### Auctions & Marketplace Systems
 
-- **Auction system** - Designed and implemented auctions, including concurrency handling and real-time updates.
-- **Listing & verification** - Designed and implemented the Listing flow and related **finite state machines** for verification and visibility, with a path to integrate NFT minting and in-app transfers.
+- Designed and implemented auction workflows with transactional consistency, concurrency control, and real-time updates.
+- Designed customer-owned listing workflows and verification pipelines using finite state machines.
+- Built marketplace foundations supporting ownership transfers, moderation flows, and future NFT integration paths.
+- Applied ACID transaction patterns and locking strategies to ensure data integrity under concurrent operations.
 
-### Documentation & Onboarding
+### Architecture & System Design
 
-- **Client docs** - Admin and Android client documentation from day one.
-- **Development guide** - For future maintainers and new devs: pain points, decisions and rationale, and what to be careful about.
-- **Testing strategy** - Guidelines for future tests and priorities; documented how to use GraphQL introspection and which queries/mutations should be covered first (we moved fast and test coverage is still to be expanded).
+- Designed database schemas, domain workflows, and state transitions for complex marketplace features.
+- Applied event-driven patterns using BullMQ to decouple workflows and improve system reliability.
+- Explored CQRS-inspired approaches where separation of read and write responsibilities improved clarity and maintainability.
+- Produced technical diagrams, workflow documentation, and implementation plans before development.
 
-### Integrations & UX
+### Documentation & Engineering Standards
 
-- **Deep links** - Android deep links so users return to the app after payment gateways or email confirmations instead of staying in the browser.
+- Authored documentation for Android and admin clients from the beginning of the project.
+- Created onboarding guides covering architecture decisions, common pitfalls, and operational procedures.
+- Established testing priorities and implementation guidelines for future expansion of automated test coverage.
+- Promoted documentation-first practices to improve maintainability and reduce onboarding time.
+
+### Integrations & User Experience
+
+- Implemented Android deep-linking flows to improve payment and account-verification experiences.
+- Contributed to real-time communication workflows for notifications, auctions, and user-facing updates.
+- Researched and prepared integration strategies for AI-powered and blockchain-related platform features.
 
 ### DevOps & Infrastructure
 
-- **CI/CD** - Full automated deployment with Docker and GitHub Actions.
-- **Environments** - Separate servers and subdomains for dev, staging, and prod; Nginx, SSL (Certbot), GitHub Action user with minimal permissions and SSH-based deployment.
+- Designed and maintained automated CI/CD pipelines using Docker and GitHub Actions.
+- Managed isolated development, staging, and production environments.
+- Configured Nginx, SSL certificates, DNS routing, firewall rules, and secure deployment workflows.
+- Implemented SSH-based deployment processes following least-privilege principles.
 
 ---
 
-### 🔙 [Back to Project Index](../README.md)
+## Screenshots
+
+![itk-home](./assets/itk-home.webp)
+![itk-search-everything](./assets/itk-search-everything.png)
+![itk-auctions](./assets/itk-auctions.png)
+![itk-bids](./assets/itk-bids.png)
+![itk-profile](./assets/itk-profile.png)
+![itk-profile-live-auctions](./assets/itk-profile-live-auctions.png)
+
+---
+
+## Lessons & Growth
+
+- Strengthened architectural thinking through marketplace, auction, and workflow-driven system design.
+- Gained hands-on experience designing transactional systems with concurrency control and data consistency requirements.
+- Deepened understanding of event-driven architectures and their trade-offs in production environments.
+- Improved technical documentation, onboarding, and knowledge-sharing practices.
+- Expanded DevOps and infrastructure experience across deployment automation, networking, and production operations.
+- Collaborated closely with frontend and mobile teams to deliver cross-platform product features.
+- Explored practical applications of LLMs, AI-assisted workflows, and future AI integration opportunities.
+- Developed stronger judgment around when to build custom solutions versus adopting existing tools.
+
+---
+
+**[← Back to Project Index](../README.md)**
