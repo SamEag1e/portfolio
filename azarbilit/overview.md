@@ -95,4 +95,4 @@ Here’s where I can share visuals that demonstrate my work:
 
 ---
 
-### 🔙 [Back to Project Index](../README.md)
+**[← Back to Project Index](../README.md)**

@@ -105,4 +105,6 @@ I’m open to collaborations, freelance opportunities, or contributions under ND
 > This project inspired the creation of **OHLCraft**, a WIP open-source framework for building modular trading bots.  
 > [View the OHLCraft showcase](../ohlcraft/overview.md)
 
-### 🔙 [Back to Project Index](../README.md)
+---
+
+**[← Back to Project Index](../README.md)**

@@ -64,4 +64,6 @@ Codebases are archived but publicly available:
 
 No plans to revive or maintain this, but the **idea still holds value**, and someday a cleaner version might resurface.
 
-### 🔙 [Back to Project Index](../README.md)
+---
+
+**[← Back to Project Index](../README.md)**

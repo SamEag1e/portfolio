@@ -68,4 +68,6 @@ The project is private.
 - Gained hands-on experience contributing to a **real production-grade NestJS backend**
 - Practiced building clear Entity–DTO–Service pipelines in a collaborative Git workflow
 
-### 🔙 [Back to Project Index](../README.md)
+---
+
+**[← Back to Project Index](../README.md)**

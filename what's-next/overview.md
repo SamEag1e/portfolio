@@ -1,3 +1,5 @@
 # 🚀 What's Next?
 
-### 🔙 [Back to Project Index](../README.md)
+---
+
+**[← Back to Project Index](../README.md)**

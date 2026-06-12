@@ -102,4 +102,4 @@ Contact me for an **architecture walkthrough or live demo re-deployment**.
 
 ---
 
-### 🔙 [Back to Project Index](../README.md)
+**[← Back to Project Index](../README.md)**

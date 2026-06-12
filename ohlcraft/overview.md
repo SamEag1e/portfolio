@@ -65,4 +65,6 @@ So far it’s a [README with a roadmap](https://github.com/SamEag1e/OHLCraft) an
 
 If you’re into algo trading, beginner-friendly frameworks, or just want to watch this grow - feel free to **follow**, **fork**, or shoot me ideas.
 
-### 🔙 [Back to Project Index](../README.md)
+---
+
+**[← Back to Project Index](../README.md)**
