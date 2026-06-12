@@ -13,11 +13,6 @@
 - **[BeautyPlus – Skincare E-Commerce](./beautyplus-ecommerce/overview.md)** - Django e-commerce, was live → **Completed / Offline** [irbeautyplus.com](https://irbeautyplus.com/)
 - **[Roof Estimator](./roof-estimator/overview.md)** - Real estate estimation (Divar data) → **Archived**
 
-#### Side / On hold
-
-- **[Nucleus-api](./nucleus-api/overview.md)** - Express 5 + TypeScript + MongoDB API boilerplate → in free time
-- **[OHLCraft](./ohlcraft/overview.md)** - Trading bot framework idea → **Planned / On hold**
-
 ---
 
 ## What Each Folder Contains
@@ -32,8 +27,6 @@ Each project includes:
 - Status & Roadmap (clear development stage)
 
 ---
-
-## Let’s Talk
 
 Feel free to reach out:
 
@@ -51,5 +44,3 @@ Feel free to reach out:
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="20" height="20" alt="LinkedIn" style="display:inline; margin: 0 6px;" />
     </a>
 </p>
-
-I’m happy to walk you through any project, demo privately, or share internal designs upon request.
